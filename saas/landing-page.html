@@ -14,140 +14,178 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1050px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 700px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+
+
+  </style>
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
+  <header>
 
-      <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-        <strong>MDB</strong>
-      </a>
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
 
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <!-- Brand -->
+          <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+            <strong>MDB</strong>
+          </a>
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Collapse -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
-          </li>
-        </ul>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link"
-              target="_blank">
-              <i class="fa fa-github mr-2"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
-                target="_blank">
-                <i class="fa fa-user mr-2"></i>Sing Up
-              </a>
-            </li>
-        </ul>
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
+              </li>
+            </ul>
 
-      </div>
-
-    </div>
-  </nav>
-  <!-- Navbar -->
-
-  <!-- Full Page Intro -->
-  <div class="view full-page-intro">
-
-    <!--Video source-->
-    <video class="" autoplay loop>
-      <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
-    </video>
-
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-blue-light d-flex justify-content-center align-items-center">
-
-      <!-- Content -->
-      <div class="container">
-
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4 white-text text-center text-md-left">
-
-            <h1 class="display-4 font-weight-bold">Learn Bootstrap 4 with MDB</h1>
-
-            <hr class="hr-light">
-
-            <p>
-              <strong>Best & free guide of responsive web design</strong>
-            </p>
-
-            <p class="mb-4 d-none d-md-block">
-              <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
-                available. Create your own, stunning website.</strong>
-            </p>
-
-            <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white">Start free tutorial
-              <i class="fa fa-graduation-cap ml-2"></i>
-            </a>
-            <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-outline-white">Download MDB
-              <i class="fa fa-download ml-2"></i>
-            </a>
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link"
+                  target="_blank">
+                  <i class="fa fa-github mr-2"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+                    target="_blank">
+                    <i class="fa fa-user mr-2"></i>Sing Up
+                  </a>
+                </li>
+            </ul>
 
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 col-xl-5 mb-4">
-
-            <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
-
-          </div>
-          <!--Grid column-->
 
         </div>
-        <!--Grid row-->
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Full Page Intro -->
+      <div class="view full-page-intro">
+
+        <!--Video source-->
+        <video class="video-intro" autoplay loop>
+          <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-blue-light d-flex justify-content-center align-items-center">
+
+          <!-- Content -->
+          <div class="container">
+
+            <!--Grid row-->
+            <div class="row d-flex h-100 justify-content-center align-items-center wow fadeIn">
+
+              <!--Grid column-->
+              <div class="col-md-6 mb-4 white-text text-center text-md-left">
+
+                <h1 class="display-4 font-weight-bold">Learn Bootstrap 4 with MDB</h1>
+
+                <hr class="hr-light">
+
+                <p>
+                  <strong>Best & free guide of responsive web design</strong>
+                </p>
+
+                <p class="mb-4 d-none d-md-block">
+                  <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                    available. Create your own, stunning website.</strong>
+                </p>
+
+                <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white">Start free tutorial
+                  <i class="fa fa-graduation-cap ml-2"></i>
+                </a>
+                <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-outline-white">Download MDB
+                  <i class="fa fa-download ml-2"></i>
+                </a>
+
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6 col-xl-5 mb-4">
+
+                <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+          </div>
+          <!-- Content -->
+
+        </div>
+        <!-- Mask & flexbox options-->
 
       </div>
-      <!-- Content -->
+      <!-- Full Page Intro -->
 
-    </div>
-    <!-- Mask & flexbox options-->
-
-  </div>
-  <!-- Full Page Intro -->
+  </header>
 
   <!--Main layout-->
   <main>
