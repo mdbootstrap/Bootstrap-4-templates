@@ -4,33 +4,29 @@
 html,
 body,
 .view {
-    height: 100%;
+  height: 100%;
 }
 
 /* Half Page Carousel itself*/
-
 .carousel {
-    height: 50%;
-    .carousel-inner {
-        height: 100%;
-        .carousel-item,
-        .active {
-            height: 100%;
-        }
+  height: 50%;
+  .carousel-inner {
+    height: 100%;
+    .carousel-item,
+    .active {
+      height: 100%;
     }
+  }
 }
 
 /* Adjustment for mobile devices*/
-
 @media (max-width: 776px) {
-    .carousel {
-        height: 100%;
-    }
+  .carousel {
+    height: 100%;
+  }
 }
 
-
 /* Footer color for sake of consistency with Navbar */
-
 .page-footer {
-    background-color: #929FBA;
+  background-color: #929FBA;
 }
