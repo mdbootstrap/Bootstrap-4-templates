@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE: 4.5.3
+* Version: MDB FREE 4.5.6
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -26,7 +26,7 @@
  */
 
 
-/*d 
+/*d
 
   jquery.easing.js
   velocity.min.js

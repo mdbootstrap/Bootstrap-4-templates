@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE 4.5.3
+ * Version: MDB FREE 4.5.6
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -45,13 +45,16 @@
 .mdb-color-text {
   color: #45526e !important; }
 
-.rgba-mdb-color-slight {
+.rgba-mdb-color-slight,
+.rgba-mdb-color-slight:after {
   background-color: rgba(69, 82, 110, 0.1); }
 
-.rgba-mdb-color-light {
+.rgba-mdb-color-light,
+.rgba-mdb-color-light:after {
   background-color: rgba(69, 82, 110, 0.3); }
 
-.rgba-mdb-color-strong {
+.rgba-mdb-color-strong,
+.rgba-mdb-color-strong:after {
   background-color: rgba(69, 82, 110, 0.7); }
 
 .mdb-color.darken-1 {
@@ -87,13 +90,16 @@
 .red-text {
   color: #f44336 !important; }
 
-.rgba-red-slight {
+.rgba-red-slight,
+.rgba-red-slight:after {
   background-color: rgba(244, 67, 54, 0.1); }
 
-.rgba-red-light {
+.rgba-red-light,
+.rgba-red-light:after {
   background-color: rgba(244, 67, 54, 0.3); }
 
-.rgba-red-strong {
+.rgba-red-strong,
+.rgba-red-strong:after {
   background-color: rgba(244, 67, 54, 0.7); }
 
 .red.darken-1 {
@@ -141,13 +147,16 @@
 .pink-text {
   color: #e91e63 !important; }
 
-.rgba-pink-slight {
+.rgba-pink-slight,
+.rgba-pink-slight:after {
   background-color: rgba(233, 30, 99, 0.1); }
 
-.rgba-pink-light {
+.rgba-pink-light,
+.rgba-pink-light:after {
   background-color: rgba(233, 30, 99, 0.3); }
 
-.rgba-pink-strong {
+.rgba-pink-strong,
+.rgba-pink-strong:after {
   background-color: rgba(233, 30, 99, 0.7); }
 
 .pink.darken-1 {
@@ -195,13 +204,16 @@
 .purple-text {
   color: #9c27b0 !important; }
 
-.rgba-purple-slight {
+.rgba-purple-slight,
+.rgba-purple-slight:after {
   background-color: rgba(156, 39, 176, 0.1); }
 
-.rgba-purple-light {
+.rgba-purple-light,
+.rgba-purple-light:after {
   background-color: rgba(156, 39, 176, 0.3); }
 
-.rgba-purple-strong {
+.rgba-purple-strong,
+.rgba-purple-strong:after {
   background-color: rgba(156, 39, 176, 0.7); }
 
 .purple.darken-1 {
@@ -249,13 +261,16 @@
 .deep-purple-text {
   color: #673ab7 !important; }
 
-.rgba-deep-purple-slight {
+.rgba-deep-purple-slight,
+.rgba-deep-purple-slight:after {
   background-color: rgba(103, 58, 183, 0.1); }
 
-.rgba-deep-purple-light {
+.rgba-deep-purple-light,
+.rgba-deep-purple-light:after {
   background-color: rgba(103, 58, 183, 0.3); }
 
-.rgba-deep-purple-strong {
+.rgba-deep-purple-strong,
+.rgba-deep-purple-strong:after {
   background-color: rgba(103, 58, 183, 0.7); }
 
 .deep-purple.darken-1 {
@@ -303,13 +318,16 @@
 .indigo-text {
   color: #3f51b5 !important; }
 
-.rgba-indigo-slight {
+.rgba-indigo-slight,
+.rgba-indigo-slight:after {
   background-color: rgba(63, 81, 181, 0.1); }
 
-.rgba-indigo-light {
+.rgba-indigo-light,
+.rgba-indigo-light:after {
   background-color: rgba(63, 81, 181, 0.3); }
 
-.rgba-indigo-strong {
+.rgba-indigo-strong,
+.rgba-indigo-strong:after {
   background-color: rgba(63, 81, 181, 0.7); }
 
 .indigo.darken-1 {
@@ -357,13 +375,16 @@
 .blue-text {
   color: #2196f3 !important; }
 
-.rgba-blue-slight {
+.rgba-blue-slight,
+.rgba-blue-slight:after {
   background-color: rgba(33, 150, 243, 0.1); }
 
-.rgba-blue-light {
+.rgba-blue-light,
+.rgba-blue-light:after {
   background-color: rgba(33, 150, 243, 0.3); }
 
-.rgba-blue-strong {
+.rgba-blue-strong,
+.rgba-blue-strong:after {
   background-color: rgba(33, 150, 243, 0.7); }
 
 .blue.darken-1 {
@@ -411,13 +432,16 @@
 .light-blue-text {
   color: #03a9f4 !important; }
 
-.rgba-light-blue-slight {
+.rgba-light-blue-slight,
+.rgba-light-blue-slight:after {
   background-color: rgba(3, 169, 244, 0.1); }
 
-.rgba-light-blue-light {
+.rgba-light-blue-light,
+.rgba-light-blue-light:after {
   background-color: rgba(3, 169, 244, 0.3); }
 
-.rgba-light-blue-strong {
+.rgba-light-blue-strong,
+.rgba-light-blue-strong:after {
   background-color: rgba(3, 169, 244, 0.7); }
 
 .light-blue.darken-1 {
@@ -465,13 +489,16 @@
 .cyan-text {
   color: #00bcd4 !important; }
 
-.rgba-cyan-slight {
+.rgba-cyan-slight,
+.rgba-cyan-slight:after {
   background-color: rgba(0, 188, 212, 0.1); }
 
-.rgba-cyan-light {
+.rgba-cyan-light,
+.rgba-cyan-light:after {
   background-color: rgba(0, 188, 212, 0.3); }
 
-.rgba-cyan-strong {
+.rgba-cyan-strong,
+.rgba-cyan-strong:after {
   background-color: rgba(0, 188, 212, 0.7); }
 
 .cyan.darken-1 {
@@ -519,13 +546,16 @@
 .teal-text {
   color: #009688 !important; }
 
-.rgba-teal-slight {
+.rgba-teal-slight,
+.rgba-teal-slight:after {
   background-color: rgba(0, 150, 136, 0.1); }
 
-.rgba-teal-light {
+.rgba-teal-light,
+.rgba-teal-light:after {
   background-color: rgba(0, 150, 136, 0.3); }
 
-.rgba-teal-strong {
+.rgba-teal-strong,
+.rgba-teal-strong:after {
   background-color: rgba(0, 150, 136, 0.7); }
 
 .teal.darken-1 {
@@ -573,13 +603,16 @@
 .green-text {
   color: #4caf50 !important; }
 
-.rgba-green-slight {
+.rgba-green-slight,
+.rgba-green-slight:after {
   background-color: rgba(76, 175, 80, 0.1); }
 
-.rgba-green-light {
+.rgba-green-light,
+.rgba-green-light:after {
   background-color: rgba(76, 175, 80, 0.3); }
 
-.rgba-green-strong {
+.rgba-green-strong,
+.rgba-green-strong:after {
   background-color: rgba(76, 175, 80, 0.7); }
 
 .green.darken-1 {
@@ -627,13 +660,16 @@
 .light-green-text {
   color: #8bc34a !important; }
 
-.rgba-light-green-slight {
+.rgba-light-green-slight,
+.rgba-light-green-slight:after {
   background-color: rgba(139, 195, 74, 0.1); }
 
-.rgba-light-green-light {
+.rgba-light-green-light,
+.rgba-light-green-light:after {
   background-color: rgba(139, 195, 74, 0.3); }
 
-.rgba-light-green-strong {
+.rgba-light-green-strong,
+.rgba-light-green-strong:after {
   background-color: rgba(139, 195, 74, 0.7); }
 
 .light-green.darken-1 {
@@ -681,13 +717,16 @@
 .lime-text {
   color: #cddc39 !important; }
 
-.rgba-lime-slight {
+.rgba-lime-slight,
+.rgba-lime-slight:after {
   background-color: rgba(205, 220, 57, 0.1); }
 
-.rgba-lime-light {
+.rgba-lime-light,
+.rgba-lime-light:after {
   background-color: rgba(205, 220, 57, 0.3); }
 
-.rgba-lime-strong {
+.rgba-lime-strong,
+.rgba-lime-strong:after {
   background-color: rgba(205, 220, 57, 0.7); }
 
 .lime.darken-1 {
@@ -735,13 +774,16 @@
 .yellow-text {
   color: #ffeb3b !important; }
 
-.rgba-yellow-slight {
+.rgba-yellow-slight,
+.rgba-yellow-slight:after {
   background-color: rgba(255, 235, 59, 0.1); }
 
-.rgba-yellow-light {
+.rgba-yellow-light,
+.rgba-yellow-light:after {
   background-color: rgba(255, 235, 59, 0.3); }
 
-.rgba-yellow-strong {
+.rgba-yellow-strong,
+.rgba-yellow-strong:after {
   background-color: rgba(255, 235, 59, 0.7); }
 
 .yellow.darken-1 {
@@ -789,13 +831,16 @@
 .amber-text {
   color: #ffc107 !important; }
 
-.rgba-amber-slight {
+.rgba-amber-slight,
+.rgba-amber-slight:after {
   background-color: rgba(255, 193, 7, 0.1); }
 
-.rgba-amber-light {
+.rgba-amber-light,
+.rgba-amber-light:after {
   background-color: rgba(255, 193, 7, 0.3); }
 
-.rgba-amber-strong {
+.rgba-amber-strong,
+.rgba-amber-strong:after {
   background-color: rgba(255, 193, 7, 0.7); }
 
 .amber.darken-1 {
@@ -843,13 +888,16 @@
 .orange-text {
   color: #ff9800 !important; }
 
-.rgba-orange-slight {
+.rgba-orange-slight,
+.rgba-orange-slight:after {
   background-color: rgba(255, 152, 0, 0.1); }
 
-.rgba-orange-light {
+.rgba-orange-light,
+.rgba-orange-light:after {
   background-color: rgba(255, 152, 0, 0.3); }
 
-.rgba-orange-strong {
+.rgba-orange-strong,
+.rgba-orange-strong:after {
   background-color: rgba(255, 152, 0, 0.7); }
 
 .orange.darken-1 {
@@ -897,13 +945,16 @@
 .deep-orange-text {
   color: #ff5722 !important; }
 
-.rgba-deep-orange-slight {
+.rgba-deep-orange-slight,
+.rgba-deep-orange-slight:after {
   background-color: rgba(255, 87, 34, 0.1); }
 
-.rgba-deep-orange-light {
+.rgba-deep-orange-light,
+.rgba-deep-orange-light:after {
   background-color: rgba(255, 87, 34, 0.3); }
 
-.rgba-deep-orange-strong {
+.rgba-deep-orange-strong,
+.rgba-deep-orange-strong:after {
   background-color: rgba(255, 87, 34, 0.7); }
 
 .deep-orange.darken-1 {
@@ -951,13 +1002,16 @@
 .brown-text {
   color: #795548 !important; }
 
-.rgba-brown-slight {
+.rgba-brown-slight,
+.rgba-brown-slight:after {
   background-color: rgba(121, 85, 72, 0.1); }
 
-.rgba-brown-light {
+.rgba-brown-light,
+.rgba-brown-light:after {
   background-color: rgba(121, 85, 72, 0.3); }
 
-.rgba-brown-strong {
+.rgba-brown-strong,
+.rgba-brown-strong:after {
   background-color: rgba(121, 85, 72, 0.7); }
 
 .brown.darken-1 {
@@ -993,13 +1047,16 @@
 .blue-grey-text {
   color: #607d8b !important; }
 
-.rgba-blue-grey-slight {
+.rgba-blue-grey-slight,
+.rgba-blue-grey-slight:after {
   background-color: rgba(96, 125, 139, 0.1); }
 
-.rgba-blue-grey-light {
+.rgba-blue-grey-light,
+.rgba-blue-grey-light:after {
   background-color: rgba(96, 125, 139, 0.3); }
 
-.rgba-blue-grey-strong {
+.rgba-blue-grey-strong,
+.rgba-blue-grey-strong:after {
   background-color: rgba(96, 125, 139, 0.7); }
 
 .blue-grey.darken-1 {
@@ -1035,13 +1092,16 @@
 .grey-text {
   color: #9e9e9e !important; }
 
-.rgba-grey-slight {
+.rgba-grey-slight,
+.rgba-grey-slight:after {
   background-color: rgba(158, 158, 158, 0.1); }
 
-.rgba-grey-light {
+.rgba-grey-light,
+.rgba-grey-light:after {
   background-color: rgba(158, 158, 158, 0.3); }
 
-.rgba-grey-strong {
+.rgba-grey-strong,
+.rgba-grey-strong:after {
   background-color: rgba(158, 158, 158, 0.7); }
 
 .grey.darken-1 {
@@ -1062,13 +1122,16 @@
 .black-text, .btn.btn-link {
   color: #000 !important; }
 
-.rgba-black-slight {
+.rgba-black-slight,
+.rgba-black-slight:after {
   background-color: rgba(0, 0, 0, 0.1); }
 
-.rgba-black-light {
+.rgba-black-light,
+.rgba-black-light:after {
   background-color: rgba(0, 0, 0, 0.3); }
 
-.rgba-black-strong {
+.rgba-black-strong,
+.rgba-black-strong:after {
   background-color: rgba(0, 0, 0, 0.7); }
 
 .white {
@@ -1077,13 +1140,16 @@
 .white-text {
   color: #fff !important; }
 
-.rgba-white-slight {
+.rgba-white-slight,
+.rgba-white-slight:after {
   background-color: rgba(255, 255, 255, 0.1); }
 
-.rgba-white-light {
+.rgba-white-light,
+.rgba-white-light:after {
   background-color: rgba(255, 255, 255, 0.3); }
 
-.rgba-white-strong {
+.rgba-white-strong,
+.rgba-white-strong:after {
   background-color: rgba(255, 255, 255, 0.7); }
 
 .rgba-stylish-slight {
@@ -1380,6 +1446,14 @@ button.bg-light:focus {
 .border-light {
   border-color: #e0e0e0 !important; }
 
+.card-img-100 {
+  width: 100px;
+  height: 100px; }
+
+.card-img-64 {
+  width: 64px;
+  height: 64px; }
+
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
@@ -1519,12 +1593,15 @@ h1, h2, h3, h4, h5, h6 {
 .blockquote {
   padding: 0.5rem 1rem;
   border-left: .25rem solid #eceeef; }
+  .blockquote.text-right {
+    border-left: none;
+    border-right: .25rem solid #eceeef; }
   .blockquote .bq-title {
     margin-bottom: 0;
     font-size: 1.5rem;
     font-weight: 400; }
   .blockquote p {
-    padding: 1rem 0 1rem 2rem;
+    padding: 1rem 0;
     font-size: 1.1rem; }
 
 .bq-primary {
@@ -1657,40 +1734,39 @@ a.text-light:hover, a.text-light:focus {
   transform: scale(1.1); }
 
 .pattern-1 {
-  background: url("../img//overlays/01.png"); }
+  background: url("../../img//overlays/01.png"); }
 
 .pattern-2 {
-  background: url("../img//overlays/02.png"); }
+  background: url("../../img//overlays/02.png"); }
 
 .pattern-3 {
-  background: url("../img//overlays/03.png"); }
+  background: url("../../img//overlays/03.png"); }
 
 .pattern-4 {
-  background: url("../img//overlays/04.png"); }
+  background: url("../../img//overlays/04.png"); }
 
 .pattern-5 {
-  background: url("../img//overlays/05.png"); }
+  background: url("../../img//overlays/05.png"); }
 
 .pattern-6 {
-  background: url("../img//overlays/06.png"); }
+  background: url("../../img//overlays/06.png"); }
 
 .pattern-7 {
-  background: url("../img//overlays/07.png"); }
+  background: url("../../img//overlays/07.png"); }
 
 .pattern-8 {
-  background: url("../img//overlays/08.png"); }
+  background: url("../../img//overlays/08.png"); }
 
 .pattern-9 {
-  background: url("../img//overlays/09.png"); }
+  background: url("../../img//overlays/09.png"); }
 
 /*!
- * Waves v0.7.5
+ * Waves v0.7.6
  * http://fian.my.id/Waves
  *
- * Copyright 2014-2016 Alfiana E. Sibuea and other contributors
+ * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
  * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
+ * https://github.com/fians/Waves/blob/master/LICENSE */
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -1699,8 +1775,7 @@ a.text-light:hover, a.text-light:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  z-index: 1; }
+  -webkit-tap-highlight-color: transparent; }
   .waves-effect .waves-ripple {
     position: absolute;
     -webkit-border-radius: 50%;
@@ -1717,6 +1792,8 @@ a.text-light:hover, a.text-light:focus {
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
     -webkit-transition-property: opacity, -webkit-transform;
     transition-property: opacity, -webkit-transform;
     -o-transition-property: transform, opacity;
@@ -1744,6 +1821,7 @@ a.text-light:hover, a.text-light:focus {
 .waves-button,
 .waves-circle {
   -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
 
@@ -1757,7 +1835,7 @@ a.text-light:hover, a.text-light:focus {
   border: none;
   outline: none;
   color: inherit;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   font-size: 1em;
   line-height: 1em;
   text-align: center;
@@ -1776,8 +1854,7 @@ a.text-light:hover, a.text-light:focus {
 .waves-input-wrapper {
   -webkit-border-radius: 0.2em;
   border-radius: 0.2em;
-  vertical-align: middle;
-  display: inline-block; }
+  vertical-align: bottom; }
   .waves-input-wrapper.waves-button {
     padding: 0; }
   .waves-input-wrapper .waves-button-input {
@@ -1807,9 +1884,6 @@ a.text-light:hover, a.text-light:focus {
 
 .waves-block {
   display: block; }
-
-a.waves-effect, a.waves-light {
-  display: inline-block; }
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -6123,6 +6197,12 @@ a.waves-effect, a.waves-light {
       font-size: 0.9375rem;
       font-weight: 300;
       color: #000 !important; }
+    @media (max-width: 600px) {
+      .navbar .dropdown-menu form {
+        width: 17rem; } }
+    @media (min-width: 600px) {
+      .navbar .dropdown-menu form {
+        width: 22rem; } }
   .navbar.navbar-light .navbar-nav .nav-item .nav-link.disbled {
     color: rgba(0, 0, 0, 0.3); }
     .navbar.navbar-light .navbar-nav .nav-item .nav-link.disbled:hover {
@@ -6154,9 +6234,6 @@ a.waves-effect, a.waves-light {
   .navbar.navbar-light form .md-form .form-control {
     color: #000; }
     .navbar.navbar-light form .md-form .form-control::-webkit-input-placeholder {
-      color: #000;
-      font-weight: 300; }
-    .navbar.navbar-light form .md-form .form-control::-moz-placeholder {
       color: #000;
       font-weight: 300; }
     .navbar.navbar-light form .md-form .form-control:-ms-input-placeholder {
@@ -6199,9 +6276,6 @@ a.waves-effect, a.waves-light {
   .navbar.navbar-dark form .md-form .form-control {
     color: #fff; }
     .navbar.navbar-dark form .md-form .form-control::-webkit-input-placeholder {
-      color: #fff;
-      font-weight: 300; }
-    .navbar.navbar-dark form .md-form .form-control::-moz-placeholder {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
@@ -6635,10 +6709,10 @@ body.scrollable {
   height: 20px; }
 
 .carousel .carousel-control-prev-icon {
-  background-image: url(../img//svg/arrow_left.svg); }
+  background-image: url(../../img//svg/arrow_left.svg); }
 
 .carousel .carousel-control-next-icon {
-  background-image: url(../img//svg/arrow_right.svg); }
+  background-image: url(../../img//svg/arrow_right.svg); }
 
 .carousel .carousel-indicators li {
   width: 0.625rem;
@@ -6865,6 +6939,156 @@ body.scrollable {
       content: attr(data-error);
       color: #f44336;
       opacity: 1; }
+    .md-form input[type=text].form-control.valid + label:after,
+    .md-form input[type=text].form-control:focus.valid + label:after,
+    .md-form input[type=password].form-control.valid + label:after,
+    .md-form input[type=password].form-control:focus.valid + label:after,
+    .md-form input[type=email].form-control.valid + label:after,
+    .md-form input[type=email].form-control:focus.valid + label:after,
+    .md-form input[type=url].form-control.valid + label:after,
+    .md-form input[type=url].form-control:focus.valid + label:after,
+    .md-form input[type=time].form-control.valid + label:after,
+    .md-form input[type=time].form-control:focus.valid + label:after,
+    .md-form input[type=date].form-control.valid + label:after,
+    .md-form input[type=date].form-control:focus.valid + label:after,
+    .md-form input[type=datetime-local].form-control.valid + label:after,
+    .md-form input[type=datetime-local].form-control:focus.valid + label:after,
+    .md-form input[type=tel].form-control.valid + label:after,
+    .md-form input[type=tel].form-control:focus.valid + label:after,
+    .md-form input[type=number].form-control.valid + label:after,
+    .md-form input[type=number].form-control:focus.valid + label:after,
+    .md-form input[type=search-md].form-control.valid + label:after,
+    .md-form input[type=search-md].form-control:focus.valid + label:after,
+    .md-form input[type=search].form-control.valid + label:after,
+    .md-form input[type=search].form-control:focus.valid + label:after,
+    .md-form textarea.md-textarea.form-control.valid + label:after,
+    .md-form textarea.md-textarea.form-control:focus.valid + label:after {
+      top: 3.56rem; }
+    .md-form input[type=text].form-control.invalid + label:after,
+    .md-form input[type=text].form-control:focus.invalid + label:after,
+    .md-form input[type=password].form-control.invalid + label:after,
+    .md-form input[type=password].form-control:focus.invalid + label:after,
+    .md-form input[type=email].form-control.invalid + label:after,
+    .md-form input[type=email].form-control:focus.invalid + label:after,
+    .md-form input[type=url].form-control.invalid + label:after,
+    .md-form input[type=url].form-control:focus.invalid + label:after,
+    .md-form input[type=time].form-control.invalid + label:after,
+    .md-form input[type=time].form-control:focus.invalid + label:after,
+    .md-form input[type=date].form-control.invalid + label:after,
+    .md-form input[type=date].form-control:focus.invalid + label:after,
+    .md-form input[type=datetime-local].form-control.invalid + label:after,
+    .md-form input[type=datetime-local].form-control:focus.invalid + label:after,
+    .md-form input[type=tel].form-control.invalid + label:after,
+    .md-form input[type=tel].form-control:focus.invalid + label:after,
+    .md-form input[type=number].form-control.invalid + label:after,
+    .md-form input[type=number].form-control:focus.invalid + label:after,
+    .md-form input[type=search-md].form-control.invalid + label:after,
+    .md-form input[type=search-md].form-control:focus.invalid + label:after,
+    .md-form input[type=search].form-control.invalid + label:after,
+    .md-form input[type=search].form-control:focus.invalid + label:after,
+    .md-form textarea.md-textarea.form-control.invalid + label:after,
+    .md-form textarea.md-textarea.form-control:focus.invalid + label:after {
+      top: 3.44rem; }
+    .md-form input[type=text].form-control-lg.valid + label:after,
+    .md-form input[type=text].form-control-lg:focus.valid + label:after,
+    .md-form input[type=password].form-control-lg.valid + label:after,
+    .md-form input[type=password].form-control-lg:focus.valid + label:after,
+    .md-form input[type=email].form-control-lg.valid + label:after,
+    .md-form input[type=email].form-control-lg:focus.valid + label:after,
+    .md-form input[type=url].form-control-lg.valid + label:after,
+    .md-form input[type=url].form-control-lg:focus.valid + label:after,
+    .md-form input[type=time].form-control-lg.valid + label:after,
+    .md-form input[type=time].form-control-lg:focus.valid + label:after,
+    .md-form input[type=date].form-control-lg.valid + label:after,
+    .md-form input[type=date].form-control-lg:focus.valid + label:after,
+    .md-form input[type=datetime-local].form-control-lg.valid + label:after,
+    .md-form input[type=datetime-local].form-control-lg:focus.valid + label:after,
+    .md-form input[type=tel].form-control-lg.valid + label:after,
+    .md-form input[type=tel].form-control-lg:focus.valid + label:after,
+    .md-form input[type=number].form-control-lg.valid + label:after,
+    .md-form input[type=number].form-control-lg:focus.valid + label:after,
+    .md-form input[type=search-md].form-control-lg.valid + label:after,
+    .md-form input[type=search-md].form-control-lg:focus.valid + label:after,
+    .md-form input[type=search].form-control-lg.valid + label:after,
+    .md-form input[type=search].form-control-lg:focus.valid + label:after,
+    .md-form textarea.md-textarea.form-control-lg.valid + label:after,
+    .md-form textarea.md-textarea.form-control-lg:focus.valid + label:after {
+      top: 4.1rem; }
+    .md-form input[type=text].form-control-lg.invalid + label:after,
+    .md-form input[type=text].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=password].form-control-lg.invalid + label:after,
+    .md-form input[type=password].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=email].form-control-lg.invalid + label:after,
+    .md-form input[type=email].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=url].form-control-lg.invalid + label:after,
+    .md-form input[type=url].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=time].form-control-lg.invalid + label:after,
+    .md-form input[type=time].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=date].form-control-lg.invalid + label:after,
+    .md-form input[type=date].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=datetime-local].form-control-lg.invalid + label:after,
+    .md-form input[type=datetime-local].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=tel].form-control-lg.invalid + label:after,
+    .md-form input[type=tel].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=number].form-control-lg.invalid + label:after,
+    .md-form input[type=number].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=search-md].form-control-lg.invalid + label:after,
+    .md-form input[type=search-md].form-control-lg:focus.invalid + label:after,
+    .md-form input[type=search].form-control-lg.invalid + label:after,
+    .md-form input[type=search].form-control-lg:focus.invalid + label:after,
+    .md-form textarea.md-textarea.form-control-lg.invalid + label:after,
+    .md-form textarea.md-textarea.form-control-lg:focus.invalid + label:after {
+      top: 4rem; }
+    .md-form input[type=text].form-control-sm.valid + label:after,
+    .md-form input[type=text].form-control-sm:focus.valid + label:after,
+    .md-form input[type=password].form-control-sm.valid + label:after,
+    .md-form input[type=password].form-control-sm:focus.valid + label:after,
+    .md-form input[type=email].form-control-sm.valid + label:after,
+    .md-form input[type=email].form-control-sm:focus.valid + label:after,
+    .md-form input[type=url].form-control-sm.valid + label:after,
+    .md-form input[type=url].form-control-sm:focus.valid + label:after,
+    .md-form input[type=time].form-control-sm.valid + label:after,
+    .md-form input[type=time].form-control-sm:focus.valid + label:after,
+    .md-form input[type=date].form-control-sm.valid + label:after,
+    .md-form input[type=date].form-control-sm:focus.valid + label:after,
+    .md-form input[type=datetime-local].form-control-sm.valid + label:after,
+    .md-form input[type=datetime-local].form-control-sm:focus.valid + label:after,
+    .md-form input[type=tel].form-control-sm.valid + label:after,
+    .md-form input[type=tel].form-control-sm:focus.valid + label:after,
+    .md-form input[type=number].form-control-sm.valid + label:after,
+    .md-form input[type=number].form-control-sm:focus.valid + label:after,
+    .md-form input[type=search-md].form-control-sm.valid + label:after,
+    .md-form input[type=search-md].form-control-sm:focus.valid + label:after,
+    .md-form input[type=search].form-control-sm.valid + label:after,
+    .md-form input[type=search].form-control-sm:focus.valid + label:after,
+    .md-form textarea.md-textarea.form-control-sm.valid + label:after,
+    .md-form textarea.md-textarea.form-control-sm:focus.valid + label:after {
+      top: 3.2rem; }
+    .md-form input[type=text].form-control-sm.invalid + label:after,
+    .md-form input[type=text].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=password].form-control-sm.invalid + label:after,
+    .md-form input[type=password].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=email].form-control-sm.invalid + label:after,
+    .md-form input[type=email].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=url].form-control-sm.invalid + label:after,
+    .md-form input[type=url].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=time].form-control-sm.invalid + label:after,
+    .md-form input[type=time].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=date].form-control-sm.invalid + label:after,
+    .md-form input[type=date].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=datetime-local].form-control-sm.invalid + label:after,
+    .md-form input[type=datetime-local].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=tel].form-control-sm.invalid + label:after,
+    .md-form input[type=tel].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=number].form-control-sm.invalid + label:after,
+    .md-form input[type=number].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=search-md].form-control-sm.invalid + label:after,
+    .md-form input[type=search-md].form-control-sm:focus.invalid + label:after,
+    .md-form input[type=search].form-control-sm.invalid + label:after,
+    .md-form input[type=search].form-control-sm:focus.invalid + label:after,
+    .md-form textarea.md-textarea.form-control-sm.invalid + label:after,
+    .md-form textarea.md-textarea.form-control-sm:focus.invalid + label:after {
+      top: 3.1rem; }
   .md-form .was-validated input[type=text]:valid + label {
     color: #00c851 !important; }
   .md-form .was-validated input[type=text]:invalid + label {
@@ -6893,6 +7117,8 @@ body.scrollable {
     .md-form .form-control:disabled, .md-form .form-control[readonly] {
       border-bottom: 1px solid #bdbdbd;
       background-color: transparent; }
+  .md-form .validate {
+    margin-bottom: 2.5rem; }
   .md-form label {
     font-size: 1rem; }
     .md-form label.active {
@@ -6900,7 +7126,8 @@ body.scrollable {
   .md-form .prefix {
     top: 0.25rem;
     font-size: 1.75rem; }
-    .md-form .prefix ~ input, .md-form .prefix ~ textarea {
+    .md-form .prefix ~ input,
+    .md-form .prefix ~ textarea {
       margin-left: 2.5rem;
       width: -webkit-calc(100% - 2.5rem);
       width: calc(100% - 2.5rem); }
@@ -6928,6 +7155,8 @@ body.scrollable {
     transition: color 0.2s; }
     .md-form .prefix.active {
       color: #4285f4; }
+  .md-form.form-lg .validate {
+    margin-bottom: 2.8rem; }
   .md-form.form-lg label {
     font-size: 1.25rem; }
     .md-form.form-lg label.active {
@@ -6935,7 +7164,8 @@ body.scrollable {
   .md-form.form-lg .prefix {
     top: 0.4rem;
     font-size: 2rem; }
-    .md-form.form-lg .prefix ~ input, .md-form.form-lg .prefix ~ textarea {
+    .md-form.form-lg .prefix ~ input,
+    .md-form.form-lg .prefix ~ textarea {
       margin-left: 3rem;
       width: -webkit-calc(100% - 3rem);
       width: calc(100% - 3rem); }
@@ -6943,6 +7173,8 @@ body.scrollable {
       margin-left: 3rem; }
     .md-form.form-lg .prefix ~ .form-text {
       margin-left: 3.1rem; }
+  .md-form.form-sm .validate {
+    margin-bottom: 2.3rem; }
   .md-form.form-sm label {
     font-size: 0.875rem; }
     .md-form.form-sm label.active {
@@ -6950,7 +7182,8 @@ body.scrollable {
   .md-form.form-sm .prefix {
     top: 0.35rem;
     font-size: 1.5rem; }
-    .md-form.form-sm .prefix ~ input, .md-form.form-sm .prefix ~ textarea {
+    .md-form.form-sm .prefix ~ input,
+    .md-form.form-sm .prefix ~ textarea {
       margin-left: 2rem;
       width: -webkit-calc(100% - 2rem);
       width: calc(100% - 2rem); }
@@ -7053,8 +7286,8 @@ table.table a {
 table.table .label-table {
   margin: 0;
   padding: 0;
-  line-height: 15px;
-  height: 15px; }
+  line-height: 0.94rem;
+  height: 0.94rem; }
 
 table.table.btn-table td {
   vertical-align: middle; }
@@ -7075,6 +7308,13 @@ table.table-sm th,
 table.table-sm td {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem; }
+
+.table-scroll-vertical {
+  max-height: 300px;
+  overflow-y: auto; }
+
+.table-fixed {
+  table-layout: fixed; }
 
 .view .full-bg-img {
   height: 100%; }
