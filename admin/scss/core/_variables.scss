@@ -52,8 +52,7 @@ $responsive-headings: map-merge((
 // Blockquote
 $blockquote-padding-y:      .5rem !default;
 $blockquote-padding-x:      1rem !default;
-$blockquote-p-padding-t:    $blockquote-padding-x !default;
-$blockquote-p-padding-b:    $blockquote-padding-x !default;
+$blockquote-p-padding-y:    $blockquote-padding-x !default;
 $blockquote-p-padding-l:    2rem !default;
 $blockquote-p-font-size:    1.1rem !default;
 
@@ -152,7 +151,7 @@ $md-card-font-size:              .9rem !default;
 $md-card-text-color:             #747373 !default;
 
 // Images
-$image-path: "../img/" !default;
+$image-path: "../../img/" !default;
 $avatar-img-max-width: 100px !default;
 
 // Carousels
@@ -181,7 +180,7 @@ $input-bg-color:                      $white-base !default;
 $label-font-size:                     .8rem !default;
 $input-transition:                    all .3s !default;
 $input-disabled-color:                rgba(0,0,0, .46) !default;
-$input-md-focus-color:                   $primary-color !default;
+$input-md-focus-color:                $primary-color !default;
 $input-error-color:                   $error-color !default;
 $input-success-color:                 $success-color !default;
 $input-label-after-top:               65px !default;
@@ -204,6 +203,9 @@ $input-prefix-margin-left:             2.5rem !default;
 $input-prefix-width:                   calc(100% - 2.5rem) !default;
 $input-group-addon-font-size:          1.4rem !default;
 $input-form-text-ml:                   2.6rem !default;
+$input-validate-mb:                    2.5rem !default;
+$input-label-valid-top:                3.56rem !default;
+$input-label-invalid-top:              3.44rem !default;
 
 $input-label-font-size-lg:             1.25rem !default;
 $input-label-active-font-size-lg:      .95rem !default;
@@ -213,6 +215,9 @@ $input-prefix-margin-left-lg:          3rem !default;
 $input-prefix-width-lg:                calc(100% - 3rem) !default;
 $input-group-addon-font-size-lg:       1.65rem !default;
 $input-form-text-ml-lg:                3.1rem !default;
+$input-validate-mb-lg:                 2.8rem !default;
+$input-label-valid-top-lg:             4.1rem !default;
+$input-label-invalid-top-lg:           4rem !default;
 
 $input-label-font-size-sm:             .875rem !default;
 $input-label-active-font-size-sm:      .75rem !default;
@@ -222,6 +227,9 @@ $input-prefix-margin-left-sm:          2rem !default;
 $input-prefix-width-sm:                calc(100% - 2rem) !default;
 $input-group-addon-font-size-sm:       1.15rem !default;
 $input-form-text-ml-sm:                2rem !default;
+$input-validate-mb-sm:                 2.3rem !default;
+$input-label-valid-top-sm:             3.2rem !default;
+$input-label-invalid-top-sm:           3.1rem !default;
 
 $textarea-padding:                     1.5rem !default;
 
@@ -332,3 +340,8 @@ $table-sm-padding-y:                   .6rem !default;
 $table-inverse-color-border:           $white-base !default;
 $product-table-img-max-height:         150px !default;
 $product-table-img-min-width:          50px !default;
+$table-th-lg-min-width:                9rem !default;
+$table-th-sm-min-width:                6rem !default;
+$table-scroll-vertical-max-height:     300px !default;
+$table-label-height:                   0.94rem !default;
+$table-label-line-height:              $table-label-height !default;
