@@ -153,4 +153,9 @@
     display: block;
 }
 
-
+a {
+  &.waves-effect,
+  &.waves-light {
+    display:inline-block;
+  }
+ }
