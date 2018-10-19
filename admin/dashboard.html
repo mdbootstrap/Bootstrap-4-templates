@@ -56,7 +56,7 @@
                                 download</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free
                                 tutorials</a>
                         </li>
                     </ul>
@@ -1237,7 +1237,7 @@
                 MDB
                 <i class="fa fa-download ml-2"></i>
             </a>
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start
+            <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
                 free tutorial
                 <i class="fa fa-graduation-cap ml-2"></i>
             </a>
@@ -1285,7 +1285,7 @@
         <!--Copyright-->
         <div class="footer-copyright py-3">
             © 2018 Copyright:
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
+            <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
         </div>
         <!--/.Copyright-->
 
@@ -1353,6 +1353,7 @@
         var myPieChart = new Chart(ctxP, {
             type: 'pie',
             data: {
+                labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
                 datasets: [{
                     data: [300, 50, 100, 40, 120],
                     backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
@@ -1360,7 +1361,8 @@
                 }]
             },
             options: {
-                responsive: true
+                responsive: true,
+                legend: false
             }
         });
 
