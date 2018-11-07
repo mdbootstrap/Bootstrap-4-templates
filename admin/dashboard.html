@@ -26,8 +26,7 @@
             <div class="container-fluid">
 
                 <!-- Brand -->
-                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/"
-                    target="_blank">
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
                     <strong class="blue-text">MDB</strong>
                 </a>
 
@@ -48,11 +47,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/"
-                                target="_blank">About MDB</a>
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About
+                                MDB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
+                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                                target="_blank">Free
                                 download</a>
                         </li>
                         <li class="nav-item">
@@ -348,7 +348,7 @@
             <div class="row wow fadeIn">
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-4">
+                <div class="col-lg-6 col-md-6 mb-4">
 
                     <!--Card-->
                     <div class="card">
@@ -370,7 +370,7 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-6 col-md-6 mb-4">
 
                     <!--Card-->
                     <div class="card">
@@ -392,7 +392,7 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-6 col-md-6 mb-4">
 
                     <!--Card-->
                     <div class="card">
@@ -413,6 +413,27 @@
                 </div>
                 <!--Grid column-->
 
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-6 mb-4">
+
+                    <!--Card-->
+                    <div class="card">
+
+                        <!-- Card header -->
+                        <div class="card-header">Horizontal Bar Chart</div>
+
+                        <!--Card content-->
+                        <div class="card-body">
+
+                            <canvas id="horizontalBar"></canvas>
+
+                        </div>
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
             </div>
             <!--Grid row-->
 
@@ -1233,7 +1254,8 @@
 
         <!--Call to action-->
         <div class="pt-4">
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download
+            <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                target="_blank" role="button">Download
                 MDB
                 <i class="fa fa-download ml-2"></i>
             </a>
@@ -1477,8 +1499,38 @@
 
         // Initialize maps
         google.maps.event.addDomListener(window, 'load', regular_map);
-    </script>
 
+        new Chart(document.getElementById("horizontalBar"), {
+            "type": "horizontalBar",
+            "data": {
+                "labels": ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Grey"],
+                "datasets": [{
+                    "label": "My First Dataset",
+                    "data": [22, 33, 55, 12, 86, 23, 14],
+                    "fill": false,
+                    "backgroundColor": ["rgba(255, 99, 132, 0.2)", "rgba(255, 159, 64, 0.2)",
+                        "rgba(255, 205, 86, 0.2)", "rgba(75, 192, 192, 0.2)",
+                        "rgba(54, 162, 235, 0.2)",
+                        "rgba(153, 102, 255, 0.2)", "rgba(201, 203, 207, 0.2)"
+                    ],
+                    "borderColor": ["rgb(255, 99, 132)", "rgb(255, 159, 64)", "rgb(255, 205, 86)",
+                        "rgb(75, 192, 192)", "rgb(54, 162, 235)", "rgb(153, 102, 255)",
+                        "rgb(201, 203, 207)"
+                    ],
+                    "borderWidth": 1
+                }]
+            },
+            "options": {
+                "scales": {
+                    "xAxes": [{
+                        "ticks": {
+                            "beginAtZero": true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
