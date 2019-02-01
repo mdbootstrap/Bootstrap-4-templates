@@ -7,7 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -23,6 +23,7 @@
     }
 
     @media (max-width: 559px) {
+
       html,
       body,
       header,
@@ -32,6 +33,7 @@
     }
 
     @media (min-width: 560px) and (max-width: 740px) {
+
       html,
       body,
       header,
@@ -41,6 +43,7 @@
     }
 
     @media (min-width: 800px) and (max-width: 850px) {
+
       html,
       body,
       header,
@@ -50,10 +53,11 @@
     }
 
     @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
-            }
-        }
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+
   </style>
 </head>
 
@@ -69,8 +73,8 @@
       </a>
 
       <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -88,7 +92,8 @@
             <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free download</a>
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
+              download</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
@@ -124,7 +129,8 @@
   <!-- Full Page Intro -->
   <div class="view">
 
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+      muted loop>
       <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
     </video>
 
@@ -150,7 +156,8 @@
           <strong>Until then have a look at our Free Bootstrap 4 tutorials</strong>
         </h4>
 
-        <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+        <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+          free tutorial
           <i class="fas fa-graduation-cap ml-2"></i>
         </a>
       </div>
@@ -167,10 +174,12 @@
 
     <!--Call to action-->
     <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
+        role="button">Download MDB
         <i class="fas fa-download ml-2"></i>
       </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
+        free tutorial
         <i class="fas fa-graduation-cap ml-2"></i>
       </a>
     </div>
@@ -237,6 +246,7 @@
   <script type="text/javascript">
     // Animations initialization
     new WOW().init();
+
   </script>
 
   <!-- Time Counter -->
@@ -261,8 +271,8 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
+      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -270,6 +280,7 @@
         document.getElementById("time-counter").innerHTML = "EXPIRED";
       }
     }, 1000);
+
   </script>
 </body>
 
