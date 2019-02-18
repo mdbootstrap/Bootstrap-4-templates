@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE 4.7.2
+ * Version: MDB FREE 4.7.3
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -6604,6 +6604,7 @@ a.btn:not([href]):not([tabindex]):hover {
 
 .label-for-default-js {
   width: 100%;
+  height: -webkit-calc(2.25rem + 2px);
   height: calc(2.25rem + 2px); }
 
 .navbar {
@@ -6696,6 +6697,9 @@ a.btn:not([href]):not([tabindex]):hover {
     .navbar.navbar-light form .md-form .form-control::-webkit-input-placeholder {
       color: #000;
       font-weight: 300; }
+    .navbar.navbar-light form .md-form .form-control:-ms-input-placeholder {
+      color: #000;
+      font-weight: 300; }
     .navbar.navbar-light form .md-form .form-control::-ms-input-placeholder {
       color: #000;
       font-weight: 300; }
@@ -6733,6 +6737,9 @@ a.btn:not([href]):not([tabindex]):hover {
   .navbar.navbar-dark form .md-form .form-control {
     color: #fff; }
     .navbar.navbar-dark form .md-form .form-control::-webkit-input-placeholder {
+      color: #fff;
+      font-weight: 300; }
+    .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control::-ms-input-placeholder {
@@ -7607,6 +7614,7 @@ body.scrollable {
     .md-form .prefix ~ input,
     .md-form .prefix ~ textarea {
       margin-left: 2.5rem;
+      width: -webkit-calc(100% - 2.5rem);
       width: calc(100% - 2.5rem); }
     .md-form .prefix ~ label {
       margin-left: 2.5rem; }
@@ -7644,6 +7652,7 @@ body.scrollable {
     .md-form.form-lg .prefix ~ input,
     .md-form.form-lg .prefix ~ textarea {
       margin-left: 3rem;
+      width: -webkit-calc(100% - 3rem);
       width: calc(100% - 3rem); }
     .md-form.form-lg .prefix ~ label {
       margin-left: 3rem; }
@@ -7661,6 +7670,7 @@ body.scrollable {
     .md-form.form-sm .prefix ~ input,
     .md-form.form-sm .prefix ~ textarea {
       margin-left: 2rem;
+      width: -webkit-calc(100% - 2rem);
       width: calc(100% - 2rem); }
     .md-form.form-sm .prefix ~ label {
       margin-left: 2rem; }
@@ -7949,6 +7959,7 @@ body.scrollable {
       .md-form.md-outline.form-lg .prefix ~ input,
       .md-form.md-outline.form-lg .prefix ~ textarea {
         margin-left: 2.2rem;
+        width: -webkit-calc(100% - 2.2rem);
         width: calc(100% - 2.2rem); }
       .md-form.md-outline.form-lg .prefix ~ label {
         margin-left: 2.2rem; }
@@ -7970,6 +7981,7 @@ body.scrollable {
       .md-form.md-outline.form-sm .prefix ~ input,
       .md-form.md-outline.form-sm .prefix ~ textarea {
         margin-left: 1.6rem;
+        width: -webkit-calc(100% - 1.6rem);
         width: calc(100% - 1.6rem); }
       .md-form.md-outline.form-sm .prefix ~ label {
         margin-left: 1.6rem; }
@@ -7988,6 +8000,7 @@ body.scrollable {
       .md-form.md-outline .prefix ~ input,
       .md-form.md-outline .prefix ~ textarea {
         margin-left: 2rem;
+        width: -webkit-calc(100% - 2rem);
         width: calc(100% - 2rem); }
       .md-form.md-outline .prefix ~ label {
         margin-left: 2rem; }
@@ -8380,6 +8393,7 @@ ul.stepper {
           content: "";
           position: absolute;
           width: 1px;
+          height: -webkit-calc(100% - 40px);
           height: calc(100% - 40px);
           left: 2.19rem;
           top: 3.75rem; } }
@@ -8458,6 +8472,7 @@ ul.stepper {
       content: "";
       position: absolute;
       width: 1px;
+      height: -webkit-calc(100% - 40px);
       height: calc(100% - 40px);
       left: 2.19rem;
       top: 3.44rem;
